@@ -12,7 +12,7 @@ public class App {
 		CustomerService cust = (CustomerService) appContext
 				.getBean("customerServiceProxy");
 
-		System.out.println("Ê¹ÓÃSpring AOP ÈçÏÂ");
+		System.out.println("Ê¹ï¿½ï¿½Spring AOP ï¿½ï¿½ï¿½ï¿½");
 		System.out.println("*************************");
 		cust.printName();
 		System.out.println("*************************");
@@ -22,7 +22,7 @@ public class App {
 		try {
 			cust.printThrowException();
 		} catch (Exception e) {
-			e.printStackTrace();
+		 
 		}
 
 	}
